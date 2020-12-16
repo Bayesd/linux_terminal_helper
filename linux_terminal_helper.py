@@ -16,7 +16,7 @@ from os import getcwd as getcwd
 from os.path import isfile
 from os.path import isdir
 
-class Terminal_helper():
+class TerminalHelper():
 
     def __init__(self, meaning_of_life):
         self.meaning_of_life = meaning_of_life
@@ -418,7 +418,7 @@ class Terminal_helper():
 
 
 spc(["clear"])
-th = Terminal_helper("42")
+th = TerminalHelper("42")
 # th.change_owner()
 th.keyboard_input()
 
